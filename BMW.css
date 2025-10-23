@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(95, 95, 95);
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    justify-content: center;
+}
+
+nav ul a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: solid 1px white;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#hero {
+    background-image:  url(img/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-weight: 300;
+    font-size: 4rem;
+    text-shadow: 0 2px 0 black;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+

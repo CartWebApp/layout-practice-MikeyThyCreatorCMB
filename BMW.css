@@ -38,7 +38,6 @@ nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .hero-content {
@@ -56,6 +55,15 @@ nav ul a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
+    column-gap: 200px;
+    background-color: light gray;
 }
 
+.half{
+    display: block;
+    max-width: 540px;
+    margin-left: 100px;
+}
+.card{
+    background-color: var(--light-grey);
+}
